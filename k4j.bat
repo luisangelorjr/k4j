@@ -35,7 +35,7 @@ start /min chrome.exe "http://larjr.com.br/download/cpz.7z"
 :: Hack de tempo huebrhue
 ping localhost
 
-:: Copiar os dados para as pastas padrão
+:: Copiar os dados para as pastas padrao
 :: Mover JkDefrag
 move %userprofile%\Downloads\jk.7z c:\larjr\exe\JkDefrag
 move %userprofile%\Downloads\cpz.7z c:\larjr\exe\CPUz
