@@ -1,10 +1,9 @@
-@echo off
 :: ----------------------------------
 ::
 :: k4j.bat V0.0.1
 ::
 :: Hi!
-:: Esse script é para criar uma pasta de arquivos para guardar instaladores e configurações e deixar funcional
+:: Esse script e para criar uma pasta de arquivos para guardar instaladores e configuracoes e deixar funcional
 :: que necessitam rodar periodicamente 
 :: 
 :: Qualquer duvida, ajuda ou parceria, entre em contato comigo.
