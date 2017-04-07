@@ -4,5 +4,6 @@
 @echo off
 if exist "%USERPROFILE%\Downloads\jk.7z" (move "%USERPROFILE%\Downloads\jk.7z" "c:\larjr\exe\CPUz\") else echo Hohohohoh
 ::usar depois set /p
+:: usar GOTO tbm ;)
 pause
 pause
