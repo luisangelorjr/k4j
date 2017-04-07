@@ -1,5 +1,3 @@
-:: ----------------------------------
-::
 :: k4j.bat V0.0.1
 ::
 :: Hi!
@@ -12,7 +10,7 @@
 :: luisangelorjr@gmail.com
 :: http://larjr.com.br
 :: https://github.com/luisangelorjr
-:: ----------------------------------
+
 
 :: Essas linhas criam as pastas padrao 
 md c:\larjr\exe\JkDefrag
