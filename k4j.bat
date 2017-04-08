@@ -3,7 +3,6 @@
 ::
 :: Hi!
 :: Esse script e para criar uma pasta de arquivos para guardar instaladores e configuracoes e deixar funcional
-:: que necessitam rodar periodicamente 
 :: 
 :: Qualquer duvida, ajuda ou parceria, entre em contato comigo.
 ::
@@ -12,6 +11,18 @@
 :: http://larjr.com.br
 :: https://github.com/luisangelorjr
 
+
+::Variaveis :)
+set logEpasta=%random%
+
+::Cria a estrutura de pasta e gera log sobre
+md c:\larjr\log
+dir /s /b c:\larjr >> c:\larjr\log\%logEpasta%.txt
+
+:: Diretorios, verificam e movem arquivos antigos para old
+md c:\larjr\old\%logEpasta%\
+::xcopy /e /q /y C:\larjr\ c:\larjr\old\%logEpasta%
+::ERROR Não é possível fazer uma cópia cíclica
 
 :: Essas linhas criam as pastas padrao 
 md c:\larjr\exe\JkDefrag
