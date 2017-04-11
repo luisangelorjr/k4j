@@ -52,3 +52,10 @@ move %userprofile%\Downloads\jk.7z c:\larjr\exe\JkDefrag
 move %userprofile%\Downloads\cpz.7z c:\larjr\exe\CPUz
 ::move %userprofile%\Downloads c:\larjr\exe\
 move %userprofile%\Downloads\wg.7z c:\larjr\exe\WinWGet
+
+
+
+
+
+::Parametros https://www.piriform.com/docs/ccleaner/advanced-usage/command-line-parameters
+start /wait ccleaner.exe /AUTO
