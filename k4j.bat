@@ -1,5 +1,5 @@
 @echo off
-:: k4j.bat V0.0.12
+:: k4j.bat V0.0.16
 ::
 :: Hi!
 :: O intuito desse programa e criar uma rotina de coleta de dados, limpeza e otimização de computadores
@@ -58,3 +58,21 @@ ping localhost -n 15x
 move %userprofile%\Downloads\jk.7z c:\larjr\exe\JkDefrag
 move %userprofile%\Downloads\cpz.7z c:\larjr\exe\CPUz
 ::move %userprofile%\Downloads c:\larjr\exe\
+
+
+ZXZXZXZXZXZXDZXZXZXZXZXZXZX
+@echo off
+
+FOR /F "tokens=1,2,3 delims=/ " %%a in ("%DATE%") do (
+set DIA=%%a
+set MES=%%b
+set ANO=%%c
+)
+
+FOR /F "tokens=1,2,3 delims=:, " %%a in ("%TIME%") do (
+set H=%%a
+set M=%%b
+set S=%%c
+)
+
+set FORMATO=%ANO%%MES%%DIA%_%H%%M%%S%
